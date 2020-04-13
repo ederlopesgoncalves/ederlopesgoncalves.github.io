@@ -138,7 +138,11 @@ label:active:after {
   width: 45px;
 }
 
-/* Responsive layout */
+/* Responsive Font Size */
+/* The text size can be set with a vw unit, which means the "viewport width". */
+/* Example1: <h1 style="font-size:8vw;">Hello World</h1> */
+
+/* Example2: Responsive layout using variables */
 h1 {
   /* Set max and min font sizes */
   --max-font: 40;
@@ -171,6 +175,7 @@ span {
   font-size: var(--responsive);
 }
 
+/* If the screen size is 321px wide or more, set the font-size with max-font variable */
 @media (min-width: 321px) {
   h1,
   h2,
@@ -180,6 +185,7 @@ span {
   }
 }
 
+/* If the screen size is 600px wide or less, set the font-size with min-font variable */
 @media (max-width: 320px) {
   h1,
   h2,
