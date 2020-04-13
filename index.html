@@ -2,23 +2,77 @@
 <html>
   <head>
     <base href="/" />
-    <title>Eder Lopes</title>
-    <meta charset="utf-8" />
-    <style type="text/css">
-      .container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        color: white;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eder Gonçalves</title>
+
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
   </head>
-  <body style="background-color:black;">
-    <div class="container">
-      <span>In Development. Our website is coming soon.</span>
+
+  <body>
+    <div class="toggle">
+      <input id="switch" type="checkbox" name="theme" />
+      <label for="switch">Toggle</label>
     </div>
+
+    <div class="container">
+      <img
+        class="imageWithFadeIn"
+        alt=""
+        src="https://avatars1.githubusercontent.com/u/49789329?s=460&amp;u=5e36db0acf2a64f45bed6c4df52bdf0d3dcf69cd&amp;v=4"
+      />
+
+      <h1>Eder Gonçalves</h1>
+      <h2>Software Engineer</h2>
+
+      <div>
+        <span class="conecte-text">
+          Conecte-se!
+        </span>
+        <ul class="social-links">
+          <li class="github">
+            <a
+              href="https://github.com/ederlopesgoncalves"
+              target="_blank"
+              title="/ederlopesgoncalves"
+              >GitHub</a
+            >
+          </li>
+          <li class="linkedin">
+            <a
+              href="https://linkedin.com/in/ederlopesgoncalves"
+              target="_blank"
+              title="Eder Gonçalves"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="twitter">
+            <a
+              href="https://twitter.com/ederlopesgoncal"
+              target="_blank"
+              title="@ederlopesgoncal"
+              >Twitter</a
+            >
+          </li>
+          <li class="email">
+            <a
+              href="mailto:ederlopesgoncalves@gmail.com"
+              target="_blank"
+              title="ederlopesgoncalves@gmail.com"
+              >Email</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+      <footer class="fixFooter">
+          <p>&copy; 2020 by Eder Gonçalves. </p>
+      </footer>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
