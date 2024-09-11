@@ -62,3 +62,6 @@ const changeColors = (colors) => {
 checkbox.addEventListener("change", ({ target }) => {
   target.checked ? changeColors(whiteMode) : changeColors(initialColors);
 });
+
+const currentYear = new Date().getFullYear();
+document.getElementById("ano").textContent = currentYear;
